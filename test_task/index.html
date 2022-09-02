@@ -1,5 +1,10 @@
+<!--doctype пропущен-->
 <html>
+<!--    нужен атрибут lang-->
     <head>
+<!--        отсутствует мета тег на адаптивность, ссылка в issues.txt-->
+
+<!--        отсутствует обязательный title тег-->
         <link rel="stylesheet" href="./styles.css">
         <meta charset="UTF-8" />
     </head>
@@ -7,16 +12,26 @@
         <div class="anketa">
             <div class="field-1">
                 <div class="field-1-1">
+<!--                    Это лучше сделать как <h1>-->
                     <span class="name">Якубаев Кярим Абдуллович</span>
+
+<!--                    идея с именованием полей таким образом - плохая,
+в идеале надо именовать блоки по их содержимому, в данном случае это .info-->
                     <div class="field-1-1-2">
+
+<!--                        ссылку на гитхаб через target=_blank вместо текста - лучше-->
                         <span>Github: https://github.com/K-y-y-a</span>
+
+<!--                        ссылку на почту через href=mailto: лучше -->
                         <span>E-mail: kyyawriter@gmail.com</span>
                         <span>Город: Саранск<span>
                     </div> 
                 </div>
                 <div class="field-1-2">
+<!--                    это недопустимо, пустые теги означают что по вёрстке что-то сделано неверно-->
                     <div></div>
                     <div>
+<!--                        необходим alt атрибут-->
                         <img class="photo" src="./Lenna.png">
                     </div>
                 </div>
