@@ -1,6 +1,11 @@
+<!--doctype пропущен-->
 <!DOCTYPE html>
 <html lang="ru">
+    <!--    нужен атрибут lang-->
     <head>
+        <!--        отсутствует мета тег на адаптивность, ссылка в issues.txt-->
+
+<!--        отсутствует обязательный title тег-->
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <link rel="stylesheet" href="./styles.css">
         <meta charset="UTF-8" />
@@ -10,15 +15,22 @@
         <main class="summary">
             <article class="person">
                 <div class="person__data">
+                    <!--                    Это лучше сделать как <h1>-->
                     <h1 class="person__name">Якубаев Кярим Абдуллович</h1>
+                    <!--                    идея с именованием полей таким образом - плохая,
+в идеале надо именовать блоки по их содержимому, в данном случае это .info-->
                     <div class="person__contacts">
+                        <!--                        ссылку на гитхаб через target=_blank вместо текста - лучше-->
                         <span><a href="https://github.com/K-y-y-a" target="_blank">Ссылка на Github</a></span>
+                        <!--                        ссылку на почту через href=mailto: лучше -->
                         <span><a href="mailto:kyyawriter@gmail.com">Электронная почта</a></span>
                         <span>Город: Саранск</span>
                     </div>
                 </div>
+                <!--                    это недопустимо, пустые теги означают что по вёрстке что-то сделано неверно-->
                 <div class="person__photo">
                     <div>
+                        <!--                        необходим alt атрибут-->
                         <img class="photo" src="./Lenna.png" alt="Фотография анкетируемого">
                     </div>
                 </div>
