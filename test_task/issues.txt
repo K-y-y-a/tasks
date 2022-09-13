@@ -1,7 +1,0 @@
-вложенная папка test_task это лишнее, можно сразу в корне
-
-- https://validator.w3.org/nu/#textarea
-выдаёт ошибки на html разметку
-
-- отсутствует адаптивность, появляется горизонтальный скрол на меньшем разрешении экрана (на мобилке)
-https://tproger.ru/translations/responsive-web-design-tips/
